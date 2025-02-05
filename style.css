@@ -42,6 +42,14 @@
     border-radius: 5px;
     font-size: 16px;
 }
+.todo-app input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
 
 .todo-app h2 img{
     width: 30px;
@@ -110,6 +118,12 @@ ul li.checked::before{
      
 }
 
+.due-date{
+    position: relative;
+    width:100%;
+
+}
+
 ul li span{
     position: absolute;
     right: 0;
@@ -125,4 +139,14 @@ ul li span{
 
 ul li span:hover{
     background:#ccc;
+}
+/* Styling for the due date */
+.due-date {
+    font-size: 14px;
+    color: #555;
+    
+    font-style: italic;
+    display: block;
+    text-align: left;
+
 }
